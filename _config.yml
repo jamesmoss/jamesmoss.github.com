@@ -1,0 +1,6 @@
+auto: true
+pagination: 1
+markdown: rdiscount
+permalink: /:title
+rdiscount
+  extensions: [smart]
