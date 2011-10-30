@@ -1,6 +1,6 @@
 auto: true
-pagination: 1
+paginate: 1
 markdown: rdiscount
-permalink: /:title
+permalink: /blog/:title
 rdiscount
   extensions: [smart]
