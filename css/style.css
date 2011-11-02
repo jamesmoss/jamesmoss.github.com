@@ -8,7 +8,7 @@ audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-body { margin: 0; font-size: 16px; line-height: 1.6; font-weight: 100; background: #F6F6F6;
+body { margin: 0; font-size: 16px; line-height: 1.6; font-weight: 100; background: #f6f6f6;
 }
 body, button, input, select, textarea { font-family: sans-serif; color: #666; }
 
@@ -85,8 +85,9 @@ pre code {
 	margin-left: -1em;
 	margin-right: -1em;
 	color: #EEE;
-	background: #222;
+	background: #333;
 	display: block;
+	font-size: 14px !important;
 }
 
 p code {
@@ -98,17 +99,54 @@ p code {
 	font-weight: 500;
 }
 
-footer {
-	border-top: 1px solid #333;
+code.bash .nv {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+article header {
+	text-align: center;
+	width: 400px;
+	margin: 0 auto 35px;
+	border: 1px solid #EEE;
+	border-width: 1px 0;
+}
+
+article footer {
+	
+}
+
+#container > header {
+	background: url(../images/header-bg.png) bottom left no-repeat;
+	height: 90px;
+	position: relative;
+}
+#container > header a {
+	background: url(../images/logo.png) top left no-repeat;
+	height: 50px;
+	width: 224px;
+	text-indent: -10000px;
+	display: block;
+	top: 17px;
+	left: 17px;
+	position: absolute;
+}
+#container > footer {
+	border-top: 1px solid #CCC;
+	clear: both;
+	margin: 20px 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;
-	color: #999;
+	color: #666;
 	text-shadow: 1px 1px 0 white;
 }
 
-h1 { font-size: 28px; }
+h1 { font-size: 36px; }
 
 
 a {
@@ -125,6 +163,35 @@ p img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	border: 15px solid white;
+	box-shadow: 1px 1px 0 #DDD;
+	border-radius: 2px;
+}
+
+.pagination a {
+	display: block;
+	padding: 0 20px;
+	height: 32px;
+	line-height: 32px;
+	float: left;
+	background: #5AB897;
+	color: white !important;
+	border-radius: 30px;
+	min-width: 120px;
+	text-align: center;
+	margin: 20px 0 40px 0;
+	text-shadow: 1px 1px 0 #439D7E;
+	border: 1px solid #439D7E;
+}
+
+.pagination a:hover {
+	text-decoration: none;
+	text-shadow: none;
+	background: #439D7E;
+}
+
+.pagination a[rel=next] {
+	float: right;
 }
 
 /* ==|== non-semantic helper classes ======================================== */

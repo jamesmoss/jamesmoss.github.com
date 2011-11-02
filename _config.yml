@@ -1,6 +1,7 @@
 auto: true
 paginate: 1
 markdown: rdiscount
+pygments: true
 permalink: /blog/:title
 rdiscount
   extensions: [smart]

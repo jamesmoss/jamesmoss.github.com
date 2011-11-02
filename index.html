@@ -7,18 +7,18 @@ title: jamesmoss.co.uk
 	{% include post.html %}
 {% endfor %}
 
+<section class="pagination">
 
 {% if paginator.page == 2 %}
-	<a href="/">Previous post</a>
+	<a href="/" rel="prev">&laquo; Previous post</a>
 {% endif %}	
 	
 {% if paginator.page > 2 %}
-	<a href="/page{{ paginator.previous_page }}">Previous post</a>
+	<a href="/page{{ paginator.previous_page }}" rel="prev">&laquo; Previous post</a>
 {% endif %}
-
-
-{{ paginator.page }}
 
 {% if paginator.next_page %}
-	<a href="/page{{ paginator.next_page }}">Next post</a>
+	<a href="/page{{ paginator.next_page }}" rel="next">Next post &raquo;</a>
 {% endif %}
+
+</section>

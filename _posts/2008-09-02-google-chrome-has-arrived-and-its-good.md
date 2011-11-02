@@ -53,11 +53,8 @@ but it has become bloated and unstable.
 I’ll be looking forward to new updates and plugins over the coming
 weeks.
 
-</div>
-</div>
-
   [announced the launch]: http://googleblog.blogspot.com/2008/09/google-chrome-now-live.html
   [Chrome]: http://www.google.com/chrome
   [comic book strip]: http://www.google.com/googlebooks/chrome/
   [WebKit]: http://webkit.org/
-  [Firefox]: http://www.firefox.com
+  [Firefox]: http://www.firefox.com/

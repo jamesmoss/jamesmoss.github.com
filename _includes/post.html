@@ -1,12 +1,14 @@
 <article>
-	
-	<time>{{ post.date | date: "%B %e, %Y" }}</time> 
-	
 	<h1>{{ post.title }}</h1>
-	
+	<header>
+		<time>{{ post.date | date: "%B %e, %Y" }}</time> ~ <a href="{{ post.url }}">Comments</a>
+	</header>
 	{{ post.content }}
+	<footer>
+		<a href="{{ post.url }}">Permalink</a>
+	</footer>
 </article>
 
 {% for related in site.related_posts %}
-	<a href="">{{ related.title }}</a>
+	<a href="">dfdf{{ related.title }}</a>
 {% endfor %}
