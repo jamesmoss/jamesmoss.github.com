@@ -20,7 +20,7 @@ Jekyll uses Liquid for templating, the syntax is similar to Django Templates and
 
 
 
-Content can be written in Markdown, Textile or plain ole' HTML. A snippet of YAML Front Matter at the top of each post can set metadata such as categories or tags. I've decided to use Markdown, it generates clean semantic HTML with the least amount of effort. A range of importers makes migrating content from another blogging platform super easy.
+Content can be written in Markdown, Textile or plain ole' HTML. A snippet of [YAML Front Matter](https://github.com/mojombo/jekyll/wiki/yaml-front-matter) at the top of each post can set metadata such as categories or tags. I've decided to use Markdown, it generates clean semantic HTML with the least amount of effort. A range of importers makes migrating content from another blogging platform super easy.
 
 I don't get to use Ruby as much as I'd like to so I'm hoping Jekyll will give me a chance to do some hacking, I've already thought of a few ideas for plugins.
 
@@ -59,7 +59,7 @@ Finally I've added some `inline code styles` to make distinguishing them from th
 
 ## Hosting
 
-The beauty of having flat HTML files is that you can host your site [literally](http://www.instructables.com/id/ServDuino-Arduino-Webserver/) anywhere, no need to install and configure complex web servers (I'm looking at you Apache).
+The beauty of having flat HTML files is that you can host your site [literally](http://www.instructables.com/id/ServDuino-Arduino-Webserver/) anywhere, there's no need to install and configure complex web servers (I'm looking at you Apache).
 
 
 

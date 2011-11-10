@@ -36,6 +36,6 @@ own levels and share them with others.
 executed puzzler which I highly reccommend.
 
   [Fantastic Contraption]: http://fantasticcontraption.com/
-  [A user created bulldozer clearing balls out of its path]: http://jamesmoss.co.uk/wp-content/uploads/2008/07/fantasticcontraption-300x218.jpg
+  [A user created bulldozer clearing balls out of its path]: /images/old/uploads/2008/07/fantasticcontraption-300x218.jpg
     "Fantastic Contraption"
   [Colin Northway and his team]: http://fantasticcontraption.com/credits.html

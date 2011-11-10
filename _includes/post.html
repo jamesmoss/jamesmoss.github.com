@@ -1,11 +1,11 @@
 <article>
 	<h1>{{ post.title }}</h1>
 	<header>
-		<time>{{ post.date | date: "%B %e, %Y" }}</time> ~ <a href="{{ post.url }}">Comments</a>
+		<time>{{ post.date | date: "%B %e, %Y" }}</time> ~ <a href="{{ post.url }}/#comments">Comments</a>
 	</header>
 	{{ post.content }}
 	<footer>
-		<a href="{{ post.url }}">Permalink</a>
+		<a href="{{ post.url }}">Permalink</a> ~ <a href="{{ post.url }}/#comments">Comments</a>
 	</footer>
 </article>
 

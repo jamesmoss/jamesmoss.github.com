@@ -77,8 +77,8 @@ dependancy issue within the WebKit engine. The WebKit team don’t seem to
 be in any hurry to fix it either, it’s been sitting as [an issue in
 their bug tracker][] for over a year with no real activity.
 
-  [image]: http://jamesmoss.co.uk/wp-content/uploads/2011/07/css-inspector-firebug.png "css-inspector-firebug"
-  [image2]: http://jamesmoss.co.uk/wp-content/uploads/2011/07/css-inspector-chrome.png
+  [image]: /images/old/uploads/2011/07/css-inspector-firebug.png "css-inspector-firebug"
+  [image2]: /images/old/uploads/2011/07/css-inspector-chrome.png
   [Paul Fitts]: http://en.wikipedia.org/wiki/Fitts's_law "Fitts's Law"
   [Stylish]: https://chrome.google.com/webstore/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe
   [raised as an issue]: http://code.google.com/p/chromium/issues/detail?id=66628

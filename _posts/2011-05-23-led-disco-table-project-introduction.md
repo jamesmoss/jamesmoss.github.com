@@ -129,4 +129,4 @@ Disco Table. I’ve started ordering parts in for the construction
 process. My next post will outline my progress on modifying the Ikea
 table and some prototype circuits I’ve built on a breadboard.
 
-  [image]: http://jamesmoss.co.uk/wp-content/uploads/2011/05/45352442-300x224.jpg "Magiker Coffee Table"
+  [image]: /images/old/uploads/2011/05/45352442-300x224.jpg "Magiker Coffee Table"

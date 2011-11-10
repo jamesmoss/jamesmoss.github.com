@@ -38,4 +38,4 @@ results in the comments.
 
   [Brazilian footballers]: http://www.minimalsworld.net/BrazilName/brazilian.shtml
   [Jedi knights]: http://www.xach.com/misc/jedi.html
-  [electro DJ name generator]: http://jamesmoss.co.uk/djnames/
+  [electro DJ name generator]: http://old.jamesmoss.co.uk/djnames/

@@ -92,11 +92,12 @@ pre code {
 
 p code {
 	padding:3px 7px;
-	background: #EEE;
+	background: #FDFFD1;
 	color: #666;
 	font-size:  14px;
 	border-radius: 6px;
 	font-weight: 500;
+	text-shadow: 0 1px 0 #FEFEFE;
 }
 
 code.bash .nv {
@@ -107,22 +108,21 @@ code.bash .nv {
 	user-select: none;
 }
 
-article header {
+article header, article footer {
 	text-align: center;
 	width: 400px;
 	margin: 0 auto 35px;
 	border: 1px solid #EEE;
 	border-width: 1px 0;
+	font-size: 18px;
 }
 
-article footer {
-	
-}
 
 #container > header {
 	background: url(../images/header-bg.png) bottom left no-repeat;
 	height: 90px;
 	position: relative;
+	margin-bottom: 45px;
 }
 #container > header a {
 	background: url(../images/logo.png) top left no-repeat;
@@ -140,10 +140,14 @@ article footer {
 	margin: 20px 0;
 }
 
+#container > footer img {
+	float: left;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 	color: #666;
-	text-shadow: 1px 1px 0 white;
+	text-shadow: 0 2px 0 white;
 }
 
 h1 { font-size: 36px; }
