@@ -4,24 +4,34 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-  <title>{{ page.title }}</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/monokai.css">
-  <!-- end CSS-->
-
-  <script src="js/libs/modernizr-2.0.6.min.js"></script>
-  <script type="text/javascript" src="http://use.typekit.com/ymf5twc.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
-
-   <!-- CSS concatenated and minified via ant build script-->
-
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>{{ page.title }}</title>
+	<meta name="description" content="The blog of a 26 year old web developer/hacker/gadget lover living and working in Brighton, England.">
+	<meta name="author" content="James Moss">
+	
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/monokai.css">
+	<!-- end CSS-->
+	
+	<script src="js/libs/modernizr-2.0.6.min.js"></script>
+	<script type="text/javascript" src="http://use.typekit.com/ymf5twc.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
+	
+	<!-- CSS concatenated and minified via ant build script-->
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-4950473-1']);
+		_gaq.push(['_trackPageview']);
+		
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 </head>
 
 <body>
@@ -60,14 +70,6 @@
   <script defer src="/js/plugins.js"></script>
   <script defer src="/js/script.js"></script>
   <!-- end scripts-->
-
-
-  <script> // Change UA-XXXXX-X to be your site's ID
-    window._gaq = [['_setAccount','UA-4950473-1'],['_trackPageview'],['_trackPageLoadTime']];
-    Modernizr.load({
-      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
-    });
-  </script>
 
 
   <!--[if lt IE 7 ]>
