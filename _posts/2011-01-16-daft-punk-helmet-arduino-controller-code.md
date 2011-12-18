@@ -53,7 +53,7 @@ if you’re not already familiar with them.
   [Arduino]: http://www.arduino.cc/
   [my Guy Man helmet]: http://www.youtube.com/watch?v=TateK_wKyao
   [Rainbowduino]: http://www.seeedstudio.com/depot/rainbowduino-led-driver-platform-plug-and-shine-p-371.html
-  [DOWNLOAD]: /src/Guy_Manuel_Helmet_LED_Controller.zip
+  [DOWNLOAD]: https://github.com/jamesmoss/guy-manuel-helmet-led-controller/zipball/master
   [here]: http://www.arduino.cc/playground/Code/Potentiometer
   []: /src/Guy_Manual_Helmet_LED.zip
   [Harrison’s blog]: http://volpinprops.blogspot.com/2010/07/daft-punk-final.html
