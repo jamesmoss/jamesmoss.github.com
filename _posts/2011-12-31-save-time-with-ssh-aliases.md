@@ -35,12 +35,12 @@ I've put together a ruby script which makes it easy to add, delete and list the 
 
 Installation is simple:
 
-    $ git clone git://github.com/jamesmoss/ssh-host-aliases.git
-    $ cd ssh-host-aliases
-    $ chmod +x .
+    $ git clone git://github.com/jamesmoss/ssh-alias.git
+    $ cd ssh-alias
+    $ chmod +x ./*
 
-To add a host run `./new-ssh-alias.rb` and follow the prompts. The script also takes care of transferring your public key to the server so you won't have to re-enter your password every time you connect.
+To add a host run `./ssh-alias-new.rb` and follow the prompts. The script also takes care of transferring your public key to the server so you won't have to re-enter your password every time you connect.
 
-If you want to remove an alias use `./delete-ssh-alias.rb` and follow the prompts. `./list-ssh-aliases.rb` will print a list of every alias you've got setup.
+If you want to remove an alias use `./ssh-alias-delete.rb` and follow the prompts. `./ssh-alias-list.rb` will print a list of every alias you've got setup.
 
-The code is up on [github](https://github.com/jamesmoss/ssh-host-aliases) if you want to fork or send a pull request. This is my first proper ruby project, so go easy on me.
+The code is up on [github](https://github.com/jamesmoss/ssh-alias) if you want to fork or send a pull request. This is my first proper ruby project, so go easy on me.
