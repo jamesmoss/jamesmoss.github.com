@@ -29,15 +29,17 @@ Much easier to remember. As an added bonus, `scp` also observes the alias so tra
     # transfers access.log from the server to the current directory
     $ scp mainserver:/var/log/access.log .
 
-## ssh-host-aliases
+## ssh-alias
 
-I've put together a ruby script which makes it easy to add, delete and list the aliases in `~/.ssh/config`.
+I've put together a set of ruby scripts which makes it easy to add, delete and list the aliases in `~/.ssh/config`.
 
 Installation is simple:
 
     $ git clone git://github.com/jamesmoss/ssh-alias.git
     $ cd ssh-alias
     $ chmod +x ./*
+
+You'll also obviously need ruby installed. It comes with OS X by default.
 
 To add a host run `./ssh-alias-new.rb` and follow the prompts. The script also takes care of transferring your public key to the server so you won't have to re-enter your password every time you connect.
 
