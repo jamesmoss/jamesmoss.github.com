@@ -3,7 +3,9 @@ title: Blog redesign
 layout: post
 ---
 
-What you're looking at here is the new version of my blog. I've decided to pare back the design to make the content really stand out, focusing on clean typography (from [TypeKit](https://typekit.com/)), vertical rhythm and minimalism. There's one full post per page (no read more links) and comments are only visible on the permalink pages.
+What you're looking at here is the new version of my blog.
+
+I've decided to pare back the design to make the content really stand out, focusing on clean typography (from [TypeKit](https://typekit.com/)), vertical rhythm and minimalism. There's one full post per page (no read more links) and comments are only visible on the permalink pages.
 
 ## Under the hood
 
