@@ -1,14 +1,22 @@
 <article>
 	<h1>{{ post.title }}</h1>
-	<header>
-		<time>{{ post.date | date: "%B %e, %Y" }}</time> ~ <a href="{{ post.url }}/#comments">Comments</a>
+    {% if page.path contains '_posts' %}{% else %}
+        {% include about.html %}
+    {% endif %}
+	<header class="post-date">
+		<time>
+            {% assign d = post.date | date: "%-d" %}
+            {% case d %}
+              {% when '1' or '21' or '31' %}{{ d }}st
+              {% when '2' or '22' %}{{ d }}nd
+              {% when '3' or '23' %}{{ d }}rd
+              {% else %}{{ d }}th
+            {% endcase %}
+            {{ post.date | date: "%B %Y" }}
+        </time>
 	</header>
 	{{ post.content }}
 	<footer>
 		<a href="{{ post.url }}">Permalink</a> ~ <a href="{{ post.url }}/#comments">Comments</a>
 	</footer>
 </article>
-
-{% for related in site.related_posts %}
-	<a href="">dfdf{{ related.title }}</a>
-{% endfor %}

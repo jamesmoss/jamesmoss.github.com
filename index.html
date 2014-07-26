@@ -1,6 +1,6 @@
 ---
 layout: layout
-title: jamesmoss.co.uk
+title: James Moss
 ---
 
 {% for post in paginator.posts %}
@@ -10,15 +10,15 @@ title: jamesmoss.co.uk
 <section class="pagination">
 
 {% if paginator.page == 2 %}
-	<a href="/" rel="prev">&laquo; Previous post</a>
-{% endif %}	
-	
+	<a href="/" rel="prev">Previous</a>
+{% endif %}
+
 {% if paginator.page > 2 %}
-	<a href="/page{{ paginator.previous_page }}" rel="prev">&laquo; Previous post</a>
+	<a href="/page{{ paginator.previous_page }}" rel="prev">Previous</a>
 {% endif %}
 
 {% if paginator.next_page %}
-	<a href="/page{{ paginator.next_page }}" rel="next">Next post &raquo;</a>
+	<a href="/page{{ paginator.next_page }}" rel="next">Next</a>
 {% endif %}
 
 </section>

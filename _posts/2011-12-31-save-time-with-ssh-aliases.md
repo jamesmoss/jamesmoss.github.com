@@ -3,7 +3,9 @@ title: Save time with SSH aliases
 layout: post
 ---
 
-If you're a developer you probably find yourself connecting to servers over ssh several times each day. Remembering the server address, port, user and password can be hard sometimes. You might find yourself needing to use the following to get into a server:
+If you're a developer you probably find yourself connecting to servers over ssh several times each day. Remembering the server address, port, user and password can be hard - but it doesn't have to be.
+
+You might find yourself needing to use the following to get into a server:
 
     $ ssh -p 3241 james@somehost-532242.long.example.org
 
@@ -15,10 +17,12 @@ Within this file you can define the hostname, user and port of a server and asso
 
 The syntax us fairly straightforward, here's an alias based on the previous example.
 
-    host mainserver
-      hostname somehost-532242.long.example.org
-      user james
-      port 3241
+```bash
+host mainserver
+  hostname somehost-532242.long.example.org
+  user james
+  port 3241
+```
 
 Now if you want to connect, you just need to type:
 
@@ -35,9 +39,11 @@ I've put together a set of ruby scripts which makes it easy to add, delete and l
 
 Installation is simple:
 
-    $ git clone git://github.com/jamesmoss/ssh-alias.git
-    $ cd ssh-alias
-    $ chmod +x ./*
+{% highlight bash linenos=table %}
+$ git clone git://github.com/jamesmoss/ssh-alias.git
+$ cd ssh-alias
+$ chmod +x ./*
+{% endhighlight %}
 
 You'll also obviously need ruby installed. It comes with OS X by default.
 

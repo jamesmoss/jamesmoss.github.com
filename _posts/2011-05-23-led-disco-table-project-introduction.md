@@ -1,11 +1,11 @@
---- 
+---
 layout: post
 title: LED Disco Table Project - Introduction
 published: true
-meta: 
+meta:
   dsq_thread_id: "404303995"
   _edit_last: "1"
-tags: 
+tags:
 - arduino
 - disco table
 - Electronics
@@ -17,7 +17,9 @@ status: publish
 ---
 I’ve always got a side project on the go, I enjoy doing something a bit
 different from my usual day job and working with electronics (especially
-LEDs) can be pretty interesting. Back in 2004, Daft Punk designed a
+LEDs) can be pretty interesting.
+
+Back in 2004, Daft Punk designed a
 coffee table for Habitat which featured a 5x5 grid of red LEDs mounted
 under smoked glass which would light up and animate in time with an
 external music source. I always wanted one of these but could never
@@ -26,7 +28,7 @@ LED matrix coffee tables. These featured 64 RGB LEDs arranged in a 8 by
 8 pattern which would animate and generally look awesome. Soon after
 that people started adding touch sensing capabilities to tables to
 enable some cool interactive effects. I want to draw from all these
-projects and build my own ultimate LED coffee table. 
+projects and build my own ultimate LED coffee table.
 
 Here’s a little
 spec I put together:
@@ -93,7 +95,7 @@ bounced back and detected by the photodiode. At least that’s how it
 should work in theory. I’m expecting lot of problems with crosstalk
 (where adjacent cells are detecting their neighbours reflected light),
 reduced IR emission (due to the light diffusion film on the bottom of
-the glass) and interference from ambient lighting. 
+the glass) and interference from ambient lighting.
 
 Each photodiode would
 will need to be connected to an analog pin on the Arduino to take a
@@ -122,7 +124,7 @@ Another positive about this approach is that I can include a graphic
 equaliser animation mode without needing to plug the table into a PC
 running a Processing sketch. I’ve bought a little pre-built board with
 an electret mic, built in pre-amp and gain control to feed into the
-MSGEQ7. 
+MSGEQ7.
 
 This post summarises where I’m at with the initial design of the
 Disco Table. I’ve started ordering parts in for the construction
