@@ -2,11 +2,19 @@
 layout: layout
 ---
 
+<header class="post-date">
+    <time>{% assign d = page.date | date: "%-d" %}
+        {% case d %}
+          {% when '1' or '21' or '31' %}{{ d }}st
+          {% when '2' or '22' %}{{ d }}nd
+          {% when '3' or '23' %}{{ d }}rd
+          {% else %}{{ d }}th
+        {% endcase %}
+        {{ page.date | date: "%B %Y" }}
+    </time>
+</header>
+
 <article class="content">
-	<!-- <h1>{{ page.title }}</h1>
-	<header>
-		<time>{{ page.date | date: "%B %e, %Y" }}</time> ~ <a href="{{ page.url }}">Permalink</a> ~ <a href="{{ page.url }}/#comments">Comments</a>
-	</header> -->
 	{{ content }}
 </article>
 

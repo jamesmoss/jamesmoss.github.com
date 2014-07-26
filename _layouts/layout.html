@@ -9,7 +9,7 @@
 	<title>{{ page.title }}</title>
 	<meta name="description" content="The personal blog of a developer and hacker from Brighton, England.">
 	<meta name="author" content="James Moss">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Cabin:500|Open+Sans:400italic,400,700|Inconsolata|Lato" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
     <link rel="stylesheet" href="/css/style.css?v4">
@@ -18,20 +18,14 @@
 </head>
 
 <body>
-
-    {% if page.path contains '_posts' %}
     <div class="top">
         <header class="title">
-            <a href="/">{{ page.title }}</a>
+            <a href="/"><span>{{ page.title }}</span></a>
         </header>
     </div>
 
-
-    {% endif %}
-
     <div class="container">
-
-        <div id="top" class="image-wrap">
+        <div class="treeline">
 
         </div>
 
