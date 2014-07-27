@@ -72,14 +72,14 @@ h1 {
    margin: 0px 0px 15px 0px;
    font-weight: 400;
    font-style: normal;
-   font-family: Cabin;
+   font-family: "Cabin", Helvetica, 'Helvetica Neue', Arial, sans-serif;
 }
 
 h2 {
    font-size: 36px;
    line-height: 46px;
    margin: 0px 0px 25px 0px;
-   font-family: Cabin;
+   font-family: "Cabin", Helvetica, 'Helvetica Neue', Arial, sans-serif;
    font-weight: 400;
    font-style: normal;
 }
@@ -88,7 +88,7 @@ h3 {
    font-size: 28px;
    line-height: 36px;
    margin: 0px 0px 19px 0px;
-   font-family: "Cabin";
+   font-family: "Cabin", Helvetica, 'Helvetica Neue', Arial, sans-serif;
    font-weight: 500;
    font-style: normal;
 }
@@ -103,7 +103,7 @@ p {
    margin: 0px 0px 28px 0px;
    text-transform: inherit;
    font-size: 16px;
-   font-family: "Open Sans";
+   font-family: "Open Sans", Helvetica, 'Helvetica Neue', Arial, sans-serif;
    font-weight: 400;
    font-style: normal;
    line-height: 181%;
@@ -126,7 +126,7 @@ h1 a {
    font-size: 22px;
    line-height: 1.56em;
    margin: 0px 0px 28px 0px;
-   font-family: "Open Sans";
+   font-family: "Open Sans", Helvetica, 'Helvetica Neue', Arial, sans-serif;
    font-weight: 400;
    font-style: normal;
    color: #3f3f3f;
@@ -146,7 +146,7 @@ blockquote.pull-quote {
 	padding: 50px 0 0;
 	font-size: 16px;
 	min-height: 100%;
-	font-family: "Open Sans";
+	font-family: "Open Sans", Helvetica, 'Helvetica Neue', Arial, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	line-height: 25px;
@@ -198,7 +198,7 @@ blockquote {
 }
 
 .pagination a {
-	font-family: 'Gill Sans';
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Lato', sans-serif;
 	text-transform: uppercase;
 	color: #333;
 	border: 3px solid #333;
@@ -268,7 +268,7 @@ p code {
 
 	.about {
 		margin: 30px 0;
-		width: 100%;
+		width: auto;
 		text-align: left;
 		position: relative;
 		padding: 0 0 0 100px;
