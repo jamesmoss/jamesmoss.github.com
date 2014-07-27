@@ -286,7 +286,7 @@ p code {
 	}
 }
 
-@media screen and (max-width: 480) {
+@media screen and (max-width: 480px) {
 	.pagination a {
 		width: 120px;
 	}
