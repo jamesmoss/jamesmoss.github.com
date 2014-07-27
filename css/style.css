@@ -285,3 +285,9 @@ p code {
 		margin-bottom: 4px;
 	}
 }
+
+@media screen and (max-width: 480) {
+	.pagination a {
+		width: 120px;
+	}
+}
