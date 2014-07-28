@@ -197,6 +197,10 @@ blockquote {
 	border-radius: 40px;
 }
 
+.pagination {
+    clear: both;
+}
+
 .pagination a {
 	font-family: 'Gill Sans', 'Gill Sans MT', 'Lato', sans-serif;
 	text-transform: uppercase;
