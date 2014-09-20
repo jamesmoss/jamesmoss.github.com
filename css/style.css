@@ -165,6 +165,15 @@ h5 {
    margin: 0px 0px 25px 0px;
 }
 
+article img {
+    display: block;
+    max-width: 100%;
+}
+
+article li {
+    margin-bottom: 1em;
+}
+
 p.quote {
    font-size: 23px;
    line-height: 28px;
