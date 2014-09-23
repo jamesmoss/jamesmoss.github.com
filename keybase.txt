@@ -1,0 +1,70 @@
+==================================================================
+https://keybase.io/jamesmoss
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://moss.io
+  * I am jamesmoss (https://keybase.io/jamesmoss) on keybase.
+  * I have a public key with fingerprint CFC6 560C FB70 8F10 8BB4  9327 F207 EBB3 92D0 FD44
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "cfc6560cfb708f108bb49327f207ebb392d0fd44",
+            "host": "keybase.io",
+            "key_id": "f207ebb392d0fd44",
+            "uid": "9c36a8eb4853af2e6784a15f822adf00",
+            "username": "jamesmoss"
+        },
+        "service": {
+            "hostname": "moss.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1411513895,
+    "expire_in": 157680000,
+    "prev": "22e8f16cc68af9b415aea38ebe73f5f0d0819f027f9abd0abaaaa476a9d5c525",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.0.5
+Comment: https://keybase.io/crypto
+
+yMLvAnicO8LLzMDF+In99eZJF/66MJ4+8LaUIUTxn3q1UlJ+SqWSVbVSdiqYSsvM
+S08tKijKzCtRslJKTks2MzUzSE5LMjewSDM0sEhKMrE0NjJPMzIwT01KMrY0SjFI
+SzExUdJRysgvBukAGpOUWJyql5kPFANy4jNTgKJY1JeCJSyTjc0SLVKTTCxMjRPT
+jFLNzC1MEg1N0yyMjBJT0gwMQAqLU4vyEnNTgaqzgFRxbn5xsVKtjhJQuCwzORXk
+aJDdUCUgWYjlBUX5JfnJ+TlAwYySkgIrkJ6SygKQovLUpHio9vikzLwUoJ+BGspS
+i4oz8/OUrAyBKpNLMkHmGZoYGpoaGltYmuoopVYUZBalxmeCVJiam1kYAAHImtQy
+oJFGRqnAADJLTjazSEyzTDIxNE1MTTQG+izV3DjNNM0gxcDC0DLNABh0lolJKQaJ
+SYlAYGJulmiZYppsamSqBPJQYV6+kpUJ0JmJ6UAjizPT8xJLSotSlWoPHYxhYWDk
+YmBjZQLFGgMXpwAsLhd08v9iWpW20/+9CEfX1n8F9mlSbqt3nnmbuD/3x73kQsHO
+sslasv/07S2jLnJOUZ/TvKozR+6cYcT2h1MdfiYsPWavEczhvEhMyex2qypvcrhW
+trZ0tbTU44aHmccWmt/uWmfo8OW0xvnYC49vmOX6BssW+Yrnr8t/W8lRsWfvxmi7
+PT3GQj1P/70KmpAqK+yhEdd/seA2f92b855R+rPWbS07Xpj5UWXBqUergzblHbj2
+7+MsRpZ78zSL1n/XTuuY2yHCG6e7yc/rkdbqxx+4NrHliF9ieiuzv8C3P+DFnI5z
+lwNuT9/YecVcJkYtqe5muPD06KY1swrSJPdmB50S+qgq0x1/y3DuXh4puc2iE9um
+vSuLyWY/Fjxx606fva5vhe1OXL3w9Oykj0tPG14OK/rk4czIcHU2n2z+8515X7ht
+j2bEf9fJD80OvzOry1Aj6AzTznn1dQ7PDlhctJxzbP69dfXy2+X+nHjUsCt2+z/N
+pdtT0o4c6Sp69luo9BljXtGtyTsX2FvJfDbJzSiOk4te+efNWx3Lx1PWKHwM28qg
+8/PCWhtll6Sn7h5+f48lrdIrady+UE9kQ1aKa2vl+neLS995sR3ey9W7fHHSwg3H
+H2szWEmY5V/fePJ9Q49kwYQ4e/7s47WHA41XsdSK7TziF31CNauC++LHXcpMy724
+X51zXecj4nnZme27/h7heyedp0VaTJh0I1/u3lYAY4uTxA==
+=+IXf
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jamesmoss
+
+==================================================================
