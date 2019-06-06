@@ -1,3 +1,8 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .container {
 	z-index: 2;
 	position: absolute;
@@ -9,61 +14,6 @@
 .container-inner {
 	background: white;
 	padding: 10px 20px 50px;
-}
-
-.top {
-	background: url(../images/trees2.jpg);
-	background-size: cover;
-	-webkit-font-smoothing: antialiased;
-	height: 28.43751vw;
-	background-position: center bottom;
-	min-height: 300px;
-}
-
-.title {
-	text-align: center;
-	color: red;
-	font-size: 5vmin;
-	line-height: 7vmin;
-	position: fixed;
-	left: 30px;
-	right: 30px;
-	z-index: 1;
-	height: 28.43751vw;
-	min-height: 300px;
-}
-
-.title a {
-	padding: 5px 10px;
-	font-family: 'Gill Sans', 'Gill Sans MT', 'Lato', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 4px;
-	text-decoration: none;
-	color: white;
-	position: absolute;
-	top: 50%;
-	left: 0;
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	transform: translateY(-50%);
-	width: 100%;
-	text-align: center;
-}
-
-.title span {
-	max-width: 1200px;
-	display: inline-block;
-}
-
-.treeline {
-	height: 28.4375vw; /* 155 / 1280 */
-	background: url(../images/trees-mask2.png);
-	background-size: cover;
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	min-height: 300px;
 }
 
 h1 {
@@ -132,7 +82,7 @@ h1 a {
    color: #3f3f3f;
 }
 
-blockquote.pull-quote {
+.pull-quote {
    margin: 0em 1em 1em 0em;
    border-left: 3px solid #ccc;
    padding: 0em 0em 0em 0.7em;
@@ -249,13 +199,15 @@ blockquote {
 
 pre {
 	padding: 15px;
-	color:#eee;
-	background-color:#3f3f3f
+	color: #eee;
+	background-color: #3f3f3f;
+	tab-size: 2;
+	margin: 0 0 28px;
 }
 
 p code {
 	background: #EEE;
-	padding: 1px 5px;
+	padding: 0 3px;
 	border-radius: 2px;
 	border: 1px solid #DDD;
 }

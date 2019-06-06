@@ -1,7 +1,7 @@
 ---
 layout: layout
 ---
-
+<h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
 <header class="post-date">
     <time>{% assign d = page.date | date: "%-d" %}
         {% case d %}
@@ -29,7 +29,7 @@ layout: layout
     </ul>
 </div>
 
-<h3 class="comments">Comments</h3>
+<h3 class="comments" id="comments">Comments</h3>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'jamesmoss';

@@ -1,9 +1,5 @@
-paginate: 1
-markdown: rdiscount
-highlighter: pygments
+paginate: 5
 permalink: /blog/:title
-rdiscount:
-  extensions: [smart]
-name: James Moss
-description: The personal blog of a developer and hacker from Brighton, England.
+title: James Moss
+description: I’m a freelance full-stack engineer with over 15 years experience.
 url: http://moss.io/
