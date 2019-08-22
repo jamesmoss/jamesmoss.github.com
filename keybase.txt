@@ -4,7 +4,7 @@ https://keybase.io/jamesmoss
 
 I hereby claim:
 
-  * I am an admin of http://moss.io
+  * I am an admin of https://moss.io
   * I am jamesmoss (https://keybase.io/jamesmoss) on keybase.
   * I have a public key with fingerprint CFC6 560C FB70 8F10 8BB4  9327 F207 EBB3 92D0 FD44
 

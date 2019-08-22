@@ -198,11 +198,23 @@ blockquote {
 }
 
 pre {
-	padding: 15px;
-	color: #eee;
-	background-color: #3f3f3f;
+	margin: 0;
 	tab-size: 2;
+}
+
+div.highlight {
+	background-color: #3f3f3f;
+	color: #eee;
+	padding: 15px;
 	margin: 0 0 28px;
+}
+
+figure.highlight {
+	margin: 0 0 28px;
+}
+
+.highlight .gutter, .highlight .gutter pre.lineno {
+	background-color: black;
 }
 
 p code {
@@ -212,14 +224,6 @@ p code {
 	border: 1px solid #DDD;
 }
 
-.highlighttable pre {
-	margin: 0;
-}
-
-.highlighttable {
-	margin-bottom: 28px;
-}
-
 .post-date {
 	color: #999;
 	font-size: 18px;
@@ -227,7 +231,7 @@ p code {
 }
 
 
-@media screen and (max-width: 1015px) {
+@media screen and (max-width: 768px) {
 	.content {
 		max-width: none;
 	}
