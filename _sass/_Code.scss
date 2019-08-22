@@ -1,0 +1,28 @@
+pre {
+	margin: 0;
+	tab-size: 2;
+}
+
+figure.highlight, div.highlight {
+	color: #eee;
+	margin: 0 0 28px;
+	background-color: #3f3f3f;
+	overflow: hidden;
+	overflow-x: auto;
+	font-size: 14px;
+}
+
+.highlight pre {
+	padding: 15px;
+}
+
+.highlight .gutter, .highlight .gutter pre.lineno {
+	background-color: black;
+}
+
+p code {
+	background: #EEE;
+	padding: 0 3px;
+	border-radius: 2px;
+	border: 1px solid #DDD;
+}

@@ -1,0 +1,24 @@
+---
+---
+
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display: border-box;
+}
+
+a {
+	color: #5AB897;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+@import "Container";
+@import "About";
+@import "Content";
+@import "Furniture";
+@import "Pagination";
+@import "Code";

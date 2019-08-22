@@ -1,40 +1,35 @@
 ---
 layout: layout
 ---
-<h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
-<header class="post-date">
-    <time>{% assign d = page.date | date: "%-d" %}
-        {% case d %}
-          {% when '1' or '21' or '31' %}{{ d }}st
-          {% when '2' or '22' %}{{ d }}nd
-          {% when '3' or '23' %}{{ d }}rd
-          {% else %}{{ d }}th
-        {% endcase %}
-        {{ page.date | date: "%B %Y" }}
-    </time>
-</header>
+<article class="Content">
+	<h1>
+		<a href="{{ page.url }}">{{ page.title }}</a>
+	</h1>
+	{% include post_date.html date=page.date %}
 
-<article class="content">
 	{{ content }}
+
+	<div class="Related">
+		<h3>Related posts</h3>
+		<ul>
+			{% for related in site.related_posts limit:5 %}
+				<li class="Related-item">
+					<a href="{{ related.url }}">{{ related.title }}</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+
+	<h3 class="Comments" id="comments">Comments</h3>
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+		var disqus_shortname = 'jamesmoss';
+		(function() {
+			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
 </article>
-
-<div class="related">
-    <h3>Related posts</h3>
-    <ul>
-    {% for related in site.related_posts limit:5 %}
-    	<li><a href="{{ related.url }}">{{ related.title }}</a></li>
-    {% endfor %}
-    </ul>
-</div>
-
-<h3 class="comments" id="comments">Comments</h3>
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'jamesmoss';
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

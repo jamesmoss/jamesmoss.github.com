@@ -1,0 +1,25 @@
+.Pagination {
+		clear: both;
+}
+
+.Pagination a {
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Lato', sans-serif;
+	text-transform: uppercase;
+	color: #333;
+	border: 3px solid #333;
+	padding: 6px 0;
+	float: right;
+	text-align: center;
+	width: 150px;
+	font-size: 20px;
+}
+
+.Pagination a:hover {
+	color: #fff;
+	background: #333;
+	text-decoration: none;
+}
+
+.Pagination a[rel="prev"] {
+	float: left;
+}

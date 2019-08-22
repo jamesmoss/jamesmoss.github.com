@@ -7,18 +7,16 @@ title: James Moss
 	{% include post.html %}
 {% endfor %}
 
-<section class="pagination">
+<section class="Pagination">
+	{% if paginator.page == 2 %}
+		<a href="/" rel="prev">Previous</a>
+	{% endif %}
 
-{% if paginator.page == 2 %}
-	<a href="/" rel="prev">Previous</a>
-{% endif %}
+	{% if paginator.page > 2 %}
+		<a href="/page{{ paginator.previous_page }}" rel="prev">Previous</a>
+	{% endif %}
 
-{% if paginator.page > 2 %}
-	<a href="/page{{ paginator.previous_page }}" rel="prev">Previous</a>
-{% endif %}
-
-{% if paginator.next_page %}
-	<a href="/page{{ paginator.next_page }}" rel="next">Next</a>
-{% endif %}
-
+	{% if paginator.next_page %}
+		<a href="/page{{ paginator.next_page }}" rel="next">Next</a>
+	{% endif %}
 </section>

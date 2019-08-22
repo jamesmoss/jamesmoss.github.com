@@ -1,0 +1,95 @@
+.Content {
+	h1 {
+		font-size: 44px;
+		line-height: 56px;
+		margin: 0px 0px 15px 0px;
+		font-weight: 400;
+		font-style: normal;
+		font-family: "Cabin", Helvetica, 'Helvetica Neue', Arial, sans-serif;
+
+		a {
+			color: inherit;
+		}
+	}
+
+	h2 {
+		font-size: 36px;
+		line-height: 46px;
+		margin: 0px 0px 25px 0px;
+		font-family: "Cabin", Helvetica, 'Helvetica Neue', Arial, sans-serif;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	h3 {
+		font-size: 28px;
+		line-height: 36px;
+		margin: 0px 0px 19px 0px;
+		font-family: "Cabin", Helvetica, 'Helvetica Neue', Arial, sans-serif;
+		font-weight: 500;
+		font-style: normal;
+	}
+
+	h4 {
+		margin-bottom: 25px;
+		font-weight: 600;
+		font-style: normal;
+	}
+
+	p {
+		margin: 0px 0px 28px 0px;
+		text-transform: inherit;
+		font-size: 16px;
+		font-family: "Open Sans", Helvetica, 'Helvetica Neue', Arial, sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		line-height: 1.75;
+	}
+
+	p:first-child {
+		font-size: 22px;
+		line-height: 1.56em;
+		margin: 0px 0px 28px 0px;
+		font-family: "Open Sans", Helvetica, 'Helvetica Neue', Arial, sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		color: #3f3f3f;
+	}
+
+	.pull-quote {
+		margin: 0em 1em 1em 0em;
+		border-left: 3px solid #ccc;
+		padding: 0em 0em 0em 0.7em;
+	}
+
+	h5 {
+		margin: 0px 0px 25px 0px;
+	}
+
+	img {
+			display: block;
+			max-width: 100%;
+	}
+
+	ul, ol {
+		margin: 0 0 28px;
+	}
+
+	li {
+		margin-bottom: 10px;
+	}
+
+	p.quote {
+		font-size: 23px;
+		line-height: 28px;
+		font-style: italic;
+		color: #666666;
+		margin: 0px;
+	}
+
+	blockquote {
+		font-size: 26px;
+		line-height: 37px;
+		margin-bottom: 25px;
+	}
+}

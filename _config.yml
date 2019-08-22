@@ -3,3 +3,5 @@ permalink: /blog/:title
 title: James Moss
 description: I’m a freelance full-stack engineer with over 15 years experience.
 url: https://moss.io/
+sass:
+  style: compact
